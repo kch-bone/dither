@@ -168,7 +168,7 @@ def dither_errP(matrix):
 
 if __name__ == '__main__':
 
-	im = load_raw('/Users/keiichi/Downloads/Files/lenna.256', "L")
+	im = load_raw('./Files/lenna.256', "L")
 
 	print im
 
